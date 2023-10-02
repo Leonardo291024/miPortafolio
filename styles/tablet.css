@@ -1,0 +1,68 @@
+.menuLogo{
+    display: none;
+}
+
+.header-links-tablet-desktopt{
+    display: flex;
+    list-style: none;
+}
+
+.header-links-tablet-desktopt li{
+    margin-left: 15px;
+}
+
+.header-links-tablet-desktopt a{
+    text-decoration: none;
+    color: #E6521C;
+    font-size: 20px;
+}
+
+/*------------ESTILOS DEL BANNER--------------*/
+
+.container-banner h3{
+   
+    font-size: 80px;
+}
+
+.container-banner h2{
+    font-size: 70px;
+}
+
+.container-banner h1{
+    font-size: 70px;
+}
+
+.container-banner .button-contact{
+    padding: 15px 20px;
+}
+
+.imagen-perfil{
+    top: 530px;
+    left: calc(50% - 90px);
+}
+
+.imagen-perfil img{
+    width: 180px;
+}
+
+/*---------------SOBRE MI-----------------*/
+.sobreMi{
+    padding: 50px 100px;
+}
+
+.sobreMi h1{
+    font-size: 40px;
+}
+
+.container-links-redes{
+    justify-content: center;
+}
+
+/*-----------------------PORTAFOLIO------------------*/
+.cards{
+    margin-right: 20px;
+}
+
+.container-cards{
+    justify-content: center;
+}
