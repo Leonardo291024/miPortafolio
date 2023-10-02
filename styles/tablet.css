@@ -13,8 +13,16 @@
 
 .header-links-tablet-desktopt a{
     text-decoration: none;
-    color: #E6521C;
+    color: white;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.header-links-tablet-desktopt a:hover{
+    transform: scale(1.1);
+    color: #E6521C;
 }
 
 /*------------ESTILOS DEL BANNER--------------*/

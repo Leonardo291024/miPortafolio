@@ -36,6 +36,12 @@ header{
 
 .container-links-header a{
     text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container-links-header a:hover{
     color: #E6521C;
 }
 
@@ -50,6 +56,8 @@ header{
     color: rgb(166, 166, 166);
     font-size: 50px;
     height: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     
 }
 
@@ -57,12 +65,15 @@ header{
     color: white;
     font-size: 30px;
     height: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .container-banner h1{
     color: white;
     font-size: 30px;
-    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .container-banner .button-contact{
@@ -72,6 +83,8 @@ header{
     color: white;
     text-decoration: none;
     padding: 5px 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .imagen-perfil{
@@ -98,18 +111,28 @@ header{
     text-align: center;
     color: rgb(230, 82, 28);
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .container-sobreMi p{
     color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .container-sobreMi strong{
     color: #E6521C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .container-sobreMi h2{
     color: #E6521C;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .container-sobreMi-contacts article{
@@ -128,6 +151,12 @@ header{
     border: 1px solid #E6521C;
     border-radius: 8px;
     margin-right: 10px;
+    transition: 0.3s;
+}
+
+.container-links-redes li:hover{
+    transform: scale(1.1);
+    background-color: #E6521C;
 }
 
 /*--------------------------PORTAFOLIO-------------------------*/
@@ -140,6 +169,8 @@ header{
     text-align: center;
     color: rgb(230, 82, 28);
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .container-cards{
@@ -167,6 +198,9 @@ header{
 
 .cards h2{
     color: #E6521C;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .cards a{
@@ -174,6 +208,14 @@ header{
     background-color: white;
     padding: 5px 5px;
     color: rgb(19, 19, 19);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.cards a:hover{
+    color: #E6521C;
 }
 
 /*----------------FOOTER----------------------*/
@@ -186,4 +228,7 @@ footer{
 footer h1{
     text-align: center;
     color: rgb(34, 34, 34);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
